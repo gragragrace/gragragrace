@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F4F4F4;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lora', serif;
+}
+
+p {
+    color: #555;
+}
+
+section {
+    border-bottom: 1px solid #CCC;
+    padding: 20px;
+}
+
+header {
+    background-color: #FFF;
+    padding: 20px;
+    border-bottom: 1px solid #CCC;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Produkt', sans-serif;
+    font-size: 2em;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+section {
+    background-color: #FFF;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border: 1px solid #CCC;
+}
+
+p {
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #FFF;
+}
