@@ -1,6 +1,14 @@
-<div class="container">
-    <header>
-        <h1>My Personal Website</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Wang's Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Sticky Top Navigation -->
+    <div class="top-nav">
         <nav>
             <ul>
                 <li><a href="research.html">Research</a></li>
@@ -8,29 +16,91 @@
                 <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
 
-    <section id="research-overview">
-        <h2>Research</h2>
-        <p>Here is a glimpse into my research work...</p>
-        <!-- <img src="images/research-thumbnail.jpg" alt="Research Overview Image"> -->
-        <a href="research.html">Explore Research</a>
+    <!-- Introduction Section -->
+    <div class="main-body container">
+        <div class="left-column">
+            <img src="images/artworks/SelfPortrait.png" alt="Grace Wang">
+        </div>
+        <div class="right-column">
+            <h1>Grace Wang</h1>
+            <h2>Creative Technologist & Researcher</h2>
+            <p>I'm a forth-year undergraduate student at Northwestern University majoring in <b>Computer Science</b> and <b>Art, Theory, Practice</b>.</p>
+            <p>I explore the intersections of technology, art, and creativity. Over the past years, I've worked on projects ranging from interactive AI exhibits to research in AI literacy, and design innovation for learning experiences.</p>
+        </div>
+    </div>
+
+    <!-- Research Overview Section -->
+    <section class="research-overview container">
+        <h2>Research Overview</h2>
+        <div class="project-container">
+            <!-- OSADE -->
+            <!-- <div class="project">
+                <div class="project-image">
+                    <img src="images/research/OSADECover.png" alt="OSADE">
+                </div>
+                <div class="project-description">
+                    <h3>OSADE <a href="osade.html" class="work-title-link"></a></h3>
+                    <p>Short description of Project 1 focusing on AI literacy and tangible interactive exhibits.</p>
+                    <a href="osade.html" class="see-more-button">See more</a>
+                </div>
+            </div> -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/research/OSADECover.png" alt="OSADE">
+                </div>
+                <div class="project-description">
+                    <h3>OSADE <a href="osade.html" class="work-title-link"></a></h3>
+                    <p>Overview of Project 2, focused on AI knowledge representation and social engagement.</p>
+                    <!-- <a href="osade.html" class="see-more-button">See more</a> -->
+                </div>
+            </div>
+            <!-- Knowledge Net -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/research/KNTable.png" alt="KN">
+                </div>
+                <div class="project-description">
+                    <h3>Knowledge Net <a href="kn.html" class="work-title-link"></a></h3>
+                    <p>Overview of Project 2, focused on AI knowledge representation and social engagement.</p>
+                    <!-- <a href="kn.html" class="see-more-button">See more</a> -->
+                </div>
+            </div>
+            <!-- Kernel Quest -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/research/KernelQuestCover.png" alt="KQ">
+                </div>
+                <div class="project-description">
+                    <h3>Kernel Quest <a href="kq.html" class="work-title-link"></a></h3>
+                    <p>Overview of Project 2, focused on AI knowledge representation and social engagement.</p>
+                    <!-- <a href="kq.html" class="see-more-button">See more</a> -->
+                </div>
+            </div>
+            <!-- LIVE ELEX -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/research/LiveElexCover.png.png" alt="LIVEELEX">
+                </div>
+                <div class="project-description">
+                    <h3>LIVE-ELEX<a href="liveelex.html" class="work-title-link"></a></h3>
+                    <p>Overview of Project 2, focused on AI knowledge representation and social engagement.</p>
+                    <!-- <a href="kq.html" class="see-more-button">See more</a> -->
+                </div>
+            </div>
+            <!-- LLM-Qual -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/research/LLMQualCover.png" alt="LLMQUAL">
+                </div>
+                <div class="project-description">
+                    <h3>LLM-Qual <a href="llmqual.html" class="work-title-link"></a></h3>
+                    <p>Overview of Project 2, focused on AI knowledge representation and social engagement.</p>
+                    <!-- <a href="kq.html" class="see-more-button">See more</a> -->
+                </div>
+            </div>
+        </div>
     </section>
-
-    <section id="art-overview">
-        <h2>Art</h2>
-        <p>Explore my latest art projects.</p>
-        <!-- <img src="images/art-thumbnail.jpg" alt="Art Overview Image"> -->
-        <a href="art.html">Explore Art</a>
-    </section>
-
-    <section id="blog-overview">
-        <h2>Blog</h2>
-        <p>Read my thoughts on technology and creativity.</p>
-        <a href="blog.html">Read More</a>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Grace Wang</p>
-    </footer>
-</div>
+</body>
+</html>
