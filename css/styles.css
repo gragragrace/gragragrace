@@ -10,6 +10,10 @@ body {
     padding: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* Sticky Navigation Bar */
 .top-nav {
     background-color: #FFF;
@@ -53,11 +57,12 @@ nav ul li a:hover {
 /* Introduction */
 .main-body {
     display: flex;
+    flex-direction: row; /* Align image and text side by side */
     align-items: center;
-    padding: 40px 0;
+    justify-content: space-between;
+    padding: 60px 0;
     max-width: 1200px;
     margin: 0 auto;
-    justify-content: space-between;
 }
 
 .left-column {
@@ -207,6 +212,17 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+a {
+    text-decoration: none;
+    border-bottom: 2px dotted #1E90FF;
+    color: #1E90FF;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    border-bottom: 2px solid #1E90FF;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .main-body {
@@ -231,4 +247,49 @@ nav ul li a:hover {
     .project {
         width: 100%;
     }
+}
+
+/* Image grid 5x6 */
+.image-grid .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Two images side by side */
+.image-pair img {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.image-pair img:last-child {
+    margin-right: 0;
+}
+
+/* Four-column layout */
+.four-column-layout .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal columns */
+    gap: 10px;
+}
+
+.four-column-layout p {
+    text-align: center;
+    margin: auto 0;
+}
+
+/* Media layout: two images and one video */
+.media-layout .media-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.media-layout img, .media-layout video {
+    width: 32%; /* Three items, each taking 32% width */
 }
